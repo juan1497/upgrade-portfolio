@@ -1,0 +1,36 @@
+main{
+    background-color:#85C1E9 ;
+}
+.home{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    .home__image{
+        width: 100%;
+        border-radius: 20px;
+    }
+    .container{
+        font-family: "Shadows Into Light", cursive;
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        .home__title{
+            
+            font-size: 90px;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+        .home__text{
+            font-size: 30px;
+
+        }
+        .home__text--italic{
+            font-style: italic; 
+        }
+        .home__text--normal{
+            font-family:"Gemunu Libre", sans-serif;
+        }
+    }
+}

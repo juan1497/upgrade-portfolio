@@ -1,0 +1,11 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: $nav-bg;
+    .text{
+        align-self: center;
+        color: $link-navbar;
+        font-style: italic;
+    }
+}

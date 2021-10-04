@@ -1,0 +1,42 @@
+.navbar{
+    background-color: $nav-bg;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .navbar__name{
+        text-transform: capitalize;
+        font-family: "Roboto";
+        color: $link-navbar;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .navbar__list{
+        display: flex;
+        justify-content:flex-end;
+        height: 70px;
+        margin-right: 5px;
+        align-items: center;
+    }
+    .navbar__item{
+        padding: 10px;
+        text-align: center;
+        .navbar__item__link{
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: "Roboto";
+            color: $link-navbar;
+            &:hover{
+                color:$fourth-color;
+                text-shadow: 1px 1px 2px cadetblue;
+            }
+        }
+        .navbar__item__link--active{
+            color:red;
+        }
+        
+    }
+    .navbar__item--active{
+        background-color: beige;
+        border-radius: 10px;
+    }
+}
